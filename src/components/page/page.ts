@@ -5,7 +5,7 @@ export interface Composable {
 }
 type OnCloseListner = () => void;
 
-type SectionContainerConstructor = {
+type SectionContainerConstructor = { //디펜던시 인젝션
     new(): SectionContainer;
 }
 
